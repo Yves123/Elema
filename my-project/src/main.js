@@ -6,6 +6,8 @@ import goods from './components/goods/goods'
 import ratings from './components/ratings/ratings'
 import seller from './components/seller/seller'
 
+
+
 Vue.use(VueRouter)
 Vue.use(VueResource)
 
@@ -25,7 +27,8 @@ router.map({
     '/seller': {
         component: seller
     }
-});
+})
+
 router.start(app, '#app')
 
 router.go('/goods')

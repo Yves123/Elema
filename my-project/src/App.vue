@@ -1,7 +1,7 @@
 <template>
   <div>
      <vheader :seller='seller'></vheader>
-     <div class="tab">
+     <div class="tab border-1px">
        <div class="tab-item"><a v-link="{ path:'/goods'}">商品</a></div>
        <div class="tab-item"><a v-link="{ path:'/ratings'}">评论</a></div>
        <div class="tab-item"><a v-link="{ path:'/seller'}">商家</a></div>
@@ -12,7 +12,6 @@
 
 <script>
     import vheader from './components/header/header'
-
     const ERR_OK = 0
 
     export default {
@@ -36,12 +35,13 @@
 </script>
 
 <style lang='stylus' rel='stylesheet/stylus'>
+    @import './common/stylus/index.styl' 
     .tab {
-        display: flex;
-        display: flex;
+        display: flex ;
         width: 100%;
         height: 40px;
-        line-height: 40px
+        line-height: 40px;
+        border-1px(rgba(7, 17, 27, 0.1))
     }
     
     .tab .tab-item {
