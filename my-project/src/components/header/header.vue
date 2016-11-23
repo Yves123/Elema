@@ -35,7 +35,6 @@
 
 <style lang='stylus' rel='stylesheet/stylus'>
     @import '../../common/stylus/index.styl' 
-    
     .header {
         color: #fff;
         background: #000
@@ -50,8 +49,8 @@
         display: inline-block;
         vertical-align: top;
     }
-
-    .avatar img{
+    
+    .avatar img {
         border-radius: 2px;
     }
     
@@ -86,8 +85,8 @@
         line-height: 12px;
         font-size: 12px;
     }
-
-    .support .icon{
+    
+    .support .icon {
         display: inline-block;
         width: 12px;
         height: 12px;
