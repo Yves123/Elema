@@ -6,7 +6,8 @@ import goods from './components/goods/goods'
 import ratings from './components/ratings/ratings'
 import seller from './components/seller/seller'
 
-
+// import './common/stylus/all.styl'
+require('common/stylus/all.styl')
 
 Vue.use(VueRouter)
 Vue.use(VueResource)
